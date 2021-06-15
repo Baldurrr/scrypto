@@ -1,0 +1,9 @@
+environs==9.3.1
+wget==3.2
+requests==2.25.1
+urllib3==1.25.10
+mysql-connector-python==8.0.25
+mysql-connector==2.2.9
+pycoingecko==2.1.0
+python-dateutil==2.8.1
+

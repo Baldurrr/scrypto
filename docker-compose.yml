@@ -1,0 +1,16 @@
+version: "3"
+services:
+  scrypto:
+    image: baldurr/scrypto:latest
+    container_name: scrypto
+    environment:
+      - CRYPTO_LIST=bitcoin,ethereum
+      - DEVISE_1=eur
+      - DEVISE_2=usd
+      - SCRAPE_TIME=300
+      - SQL_USER=root2
+      - SQL_PASSWORD=root2
+      - SQL_HOST=192.168.1.203
+      - SQL_DB=db_scrypto
+      - SQL_PORT=3308
+    restart: unless-stopped
