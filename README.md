@@ -145,8 +145,8 @@ NOTICE: </br>
 - For the value columns, set the name of the column like this: value_mycurrencie (ex: value_usd)
 
 ```
-CREATE TABLE bitcoin (data_id INT NOT NULL AUTO_INCREMENT,time DATETIME, metric VARCHAR(20),value_eur VARCHAR(20),value_usd VARCHAR(20), PRIMARY KEY (data_id));
-CREATE TABLE ethereum (data_id INT NOT NULL AUTO_INCREMENT,time DATETIME, metric VARCHAR(20),value_eur VARCHAR(20),value_usd VARCHAR(20), PRIMARY KEY (data_id));
+CREATE TABLE ethereum (data_id INT NOT NULL AUTO_INCREMENT, time DATETIME, metric VARCHAR(20), value_eur numeric(10,2), value_usd numeric(10,2), PRIMARY KEY(data_id));
+CREATE TABLE bitcoin (data_id INT NOT NULL AUTO_INCREMENT, time DATETIME, metric VARCHAR(20), value_eur  numeric(10,2), value_usd numeric(10,2), PRIMARY KEY(data_id));
 ```
 
 Now you are ready to collect data
