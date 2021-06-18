@@ -172,5 +172,5 @@ docker logs scrypto (will display the api response if the configuration worked)
 In this repo, you will also find a json fill that contain the grafana dashboard configuration
 
 Grafana dashboard example:
-![image](https://user-images.githubusercontent.com/77190420/122207393-60dc3480-cea2-11eb-86e9-2a731e26809b.png)
+![image](https://user-images.githubusercontent.com/77190420/122595340-99c60600-d068-11eb-8b04-80cadbba3b15.png)
 
